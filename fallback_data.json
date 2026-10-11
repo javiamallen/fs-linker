@@ -1,0 +1,37 @@
+ [
+  {
+    "id": "FS-101",
+    "first_name": "John",
+    "last_name": "Smith",
+    "birth_year": 1880,
+    "birth_place": "Utah"
+  },
+  {
+    "id": "FS-102",
+    "first_name": "Jon",
+    "last_name": "Smith",
+    "birth_year": 1880,
+    "birth_place": "Utah"
+  },
+  {
+    "id": "FS-103",
+    "first_name": "Marcela",
+    "last_name": "Morgado",
+    "birth_year": 1915,
+    "birth_place": "Santiago"
+  },
+  {
+    "id": "FS-104",
+    "first_name": "Marcella",
+    "last_name": "Morgado",
+    "birth_year": 1914,
+    "birth_place": "Santiago"
+  },
+  {
+    "id": "FS-105",
+    "first_name": "William",
+    "last_name": "Brown",
+    "birth_year": 1895,
+    "birth_place": "Ohio"
+  }
+]
