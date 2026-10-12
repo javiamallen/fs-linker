@@ -1,0 +1,43 @@
+========================================================================
+CSE 111 FINAL PROJECT REPORT & TABLE OF WORK
+========================================================================
+Project Title: FamilySearch Record Linker and Duplicate Finder
+Student Name: Javiera Alejandra Allende Morgado (Javiam Allen)
+Course: CSE 111 - Programming with Functions
+
+------------------------------------------------------------------------
+1. PROJECT SUMMARY
+------------------------------------------------------------------------
+This project implements a Python-based data ingestion and duplicate-matching 
+pipeline designed for genealogical and census record linking. It normalizes 
+text, executes a Bigram Jaccard similarity algorithm, validates birth-year 
+tolerances, and incorporates a local JSON fallback mechanism to guarantee 
+fault-tolerant execution.
+
+------------------------------------------------------------------------
+2. TABLE OF WORK (12.5 HOURS TOTAL)
+------------------------------------------------------------------------
+Date        Hours   Task Description
+------------------------------------------------------------------------
+2026-10-05  2.5 hrs Initial project architecture, proposal drafting, and 
+                    repository setup.
+2026-10-07  3.0 hrs Implemented core logic: clean_text and bigram-based 
+                    calculate_similarity functions.
+2026-10-09  3.5 hrs Built fetch_census_records HTTP integration with local 
+                    JSON fallback mechanism for zero runtime errors.
+2026-10-10  2.0 hrs Developed test_familysearch_matcher.py test suite with 
+                    pytest, achieving 100% code coverage.
+2026-10-11  1.5 hrs Final validation, terminal debugging, README documentation, 
+                    and project submission prep.
+------------------------------------------------------------------------
+TOTAL TIME SPENT: 12.5 Hours
+
+------------------------------------------------------------------------
+3. RUBRIC REQUIREMENT COMPLIANCE CHECKLIST
+------------------------------------------------------------------------
+[X] Minimum of 4 functional units implemented.
+[X] Pure functions utilized with explicit parameters and return values.
+[X] External modules imported and utilized (requests, re, json, csv, pytest).
+[X] Automated unit test suite executed and passed (pytest).
+[X] Resilience / Exception handling implemented (JSON fallback).
+[X] Standard PEP 8 formatting applied.
